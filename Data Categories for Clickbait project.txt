@@ -1,0 +1,17 @@
+.CSV files
+
+General
+
+sports
+tech
+science
+politics
+education
+health
+entertainment
+
+Specific
+
+Trump
+Coronavirus
+Black Lives Matter
