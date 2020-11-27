@@ -1,2 +1,4 @@
 # Classifying Clickbait Headlines #
-### Jake Taylor, Anthony English ###
+####* Jake Taylor, Anthony English *####
+
+
