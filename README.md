@@ -31,6 +31,12 @@ For each of the ten selected topics: **BLM, Biden, Covid, Entertainment, Food, H
 - angry count (facebook reaction)
 - number of words in article
 
+These individual csv files were cleaned and combined into a single pandas dataframe (for detailed code, see 'data-processing.ipynb').
+
+Next, we imported a dataset of 32,000 headlines that had been classified by the creator as clickbait or non-clickbait, these headlines were cleared of [stop words](https://en.wikipedia.org/wiki/Stop_word), tokenized, and converted into integer sequences of constant length. For the clickbait classification model, we used an [LSTM network](https://colah.github.io/posts/2015-08-Understanding-LSTMs), a type of recursive neural network capable of long-term memory. This model was fit to our processed data, and scored at 96% for precision and recall on the testing data. This model was then used to assign a 'clickbait' or 'non-clickbait' tag to each of the article headlines in our pandas dataframe (for detailed code, see 'model-development.ipynb').
+
+Our results and accompanying visualizations are layed out in the powerpoint presentation 'Classifying-Clickbait-Headlines.pptx'
+
 
 
 
