@@ -4,7 +4,7 @@
 
 ### Guiding Questions ###
 
-1. Are articles with clickbait hedalines more popular on social media platforms than non-clickbait articles?
+1. Are articles with clickbait headlines more popular on social media platforms than non-clickbait articles?
 2. Do certain topics have more clickbait article headlines than others?
 3. Do certain topics receive a particular facebook 'reaction' disproportionately? 
 4. How does clickbait status effect 'reactions' on Facebook?
